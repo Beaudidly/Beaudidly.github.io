@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="github-pandoc.css">
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="memory-testing-feasibility-and-review">Memory Testing Feasibility and Review</h1>
+<p>Austin Bodzas 2016-05-14</p>
+<h3 id="topics">Topics</h3>
+<ol>
+<li><a href="#what-we-want-to-accomplish">What we want to accomplish</a></li>
+<li><a href="#Why?">Why?</a></li>
+<li><a href="#can-this-be-done-on-earth">Can this be done on Earth?</a></li>
+<li><a href="#other-groups-doing-this">Other groups doing this</a></li>
+</ol>
+<h3 id="what-we-want-to-accomplish">What we want to accomplish</h3>
+<p>Validate the performance of new types of radiation resistant memory storing solutions<br />
+on cube satellites in a space condition.</p>
+<h3 id="why">Why?</h3>
+<p>NASA and aerospace plans to have manned missions past LEO. LEO suffers less<br />
+from radiation than deep space, so more radiation resistant and reliable technology is needed for these missions.</p>
+<h5 id="but-why-not-use-existant-technology-to-accomplish-the-same-goal">But why not use existant technology to accomplish the same goal?</h5>
+<ol>
+<li><p>Redundancy - Requires two redundancy chips for every chip needed. This is extra power and extra weight that would be avoided.</p></li>
+<li><p>Checking - Use of algoriths, parity checks, Hamming code and other programming practices would allow for fighting against single bit corruption. But this becomes more unreasonable as the amount of errors goes up. This also doesn't cover cases of total destructive events.</p></li>
+<li><p>Shielding - High weight, new resistive technology can help shed the shielding weight to achieve.</p></li>
+</ol>
+<h5 id="how-does-this-benefit-others">How does this benefit others?</h5>
+<ul>
+<li>Our research and data would be open to the public, to help further benefit the greater scientific community.</li>
+<li>Results from this payload could help other groups planning to launch lightweight, low power and low cost cube satellites.</li>
+<li>Testing the effectiveness of these chips could help optimize efficiency of not just cube satellites, but Deep Space manned missions in the future.</li>
+</ul>
+<h3 id="can-this-be-done-on-earth">Can this be done on Earth?</h3>
+<p>Difficult to simulate the wide array of different radiation and ion particles in a laboratory environment. Radiation that can be found in orbit around earth ranges from Galactic Cosmic Rays, Trapped electrons, protons, and various heavy ions. Testing and performing this research in orbit would allow for proper environment testing, and give data as to the flight readyness of a technology.</p>
+<h3 id="other-groups-doing-this">Other groups doing this</h3>
+<ul>
+<li>Ångström Aerospace Corporation, Uppsala, Sweden</li>
+<li>payload on Tohoku University's SpriteSat</li>
+<li>University of Michigan</li>
+<li>CubeSat with payload including MRAM and PRAM</li>
+<li>University of Alabama in Huntsville</li>
+<li>FASTSAT Micro-Satellite FeRAM Testing</li>
+<li>NASA Electronic Parts and Packaging (NEPP) Goddard Space Flight Center</li>
+</ul>
+<h3 id="who-we-need">Who we need</h3>
+<ul>
+<li>Electrical Engineers</li>
+<li>Computer Engineers</li>
+<li>Embedded Systems Developers</li>
+</ul>
+<p>This payload will be more demanding of Embedded System Devs who are familiar with Real Time Operating Systems (RTOS), EE's, and CE's. It would not have much or anything to do for Mechanical Engineers.</p>
+<h3 id="what-we-need-to-do-between-now-and-launch">What we need to do between now and launch</h3>
+<p>(Note: not necessarily in order)</p>
+<ul>
+<li>recruit needed Majors</li>
+<li>find faculty or graduate advising in relevant fields</li>
+<li>contact producers of FeRAM, MRAM, PRAM, and other candidate memory types</li>
+<li>contact groups who are researching these types of memory.</li>
+<li>devise a method to carry out the research and how to implement it as a CubeSat payload.</li>
+<li>Create a prototype of the payload</li>
+<li>Test the prototype, fix and test again</li>
+<li>Create final payload</li>
+<li>Test the final payload</li>
+<li>find sponsors</li>
+<li>Test some more</li>
+</ul>
+<h3 id="additional-notes">Additional notes</h3>
+<p>If we can achieve a further orbit than LEO, we can perform more interesting research.</p>
+<ul>
+<li>330-435km | ISS</li>
+<li>1,000 - 60,000km | Van Allen Belt</li>
+<li>65,000 - 90,000km | Magnetosphere</li>
+</ul>
+<p>The Van Allen Belt does dip down to about 200km, known as the South Atlantic Anomaly, greater orbits can help provide the payload more consistent radiation with more variety.</p>
+<h3 id="useful-resources">Useful Resources</h3>
+<p><a href="http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20110015720.pdf" title="UAH">UAH paper on FeRAM testing</a></p>
+<p><a href="http://www.nepp.nasa.gov/workshops/etw2012/talks/Tuesday/T05_Heidecker_MRAM_Technology.pdf" title="Nepp Slides on MRAM">NEPP Slides on MRAM</a></p>
+<p><a href="http://www.sciencedirect.com/science/article/pii/S2214552416300013" title="Galactic Cosmic Ray">Galactic Cosmic Ray Simulation</a></p>
+<p><a href="http://www.nepp.nasa.gov/workshops/etw2012/talks/Monday/M01_LaBel_ETW_Introduction.pdf" title="Information on NEPP">Information on NEPP</a></p>
+</body>
+</html>
