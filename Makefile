@@ -1,4 +1,4 @@
-READ=markdown_github
+READ=markdown
 INPUT=MemTestFeasibility.md
 
 all: html
