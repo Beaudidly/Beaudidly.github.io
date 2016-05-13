@@ -3,22 +3,26 @@ Austin Bodzas 2016-05-14
 
 ### Topics
 1. [What we want to accomplish](#what-we-want-to-accomplish)
-2. [Why?](#Why?)
+2. [Why?](#why)
 3. [Can this be done on Earth?](#can-this-be-done-on-earth)
 4. [Other groups doing this](#other-groups-doing-this)
+5. [Who we need](#who-we-need)
+6. [What we need to do between now and launch](#what-we-need-to-do-between-now-and-launch)
+7. [Additional notes](#additional-notes)
+8. [Useful Resources](#useful-resources)
 
 ### What we want to accomplish
 Validate the performance of new types of radiation resistant memory storing solutions
 on cube satellites in a space condition.  
 
 ### Why?
-NASA and aerospace plans to have manned missions past LEO.  LEO suffers less
+NASA and other groups plan to have manned missions past LEO.  LEO suffers less
 from radiation than deep space, so more radiation resistant and reliable technology is needed for these missions.  
 
-##### But why not use existant technology to accomplish the same goal?
+##### But why not use existing technology to accomplish the same goal?
 1. Redundancy - Requires two redundancy chips for every chip needed.  This is extra power and extra weight that would be avoided.  
 
-2. Checking - Use of algoriths, parity checks, Hamming code and other programming practices would allow for fighting against single bit corruption. But this becomes more unreasonable as the amount of errors goes up.  This also doesn't cover cases of total destructive events.
+2. Checking - Use of algorithms, parity checks, Hamming code and other programming practices would allow for fighting against single bit corruption. But this becomes more unreasonable as the amount of errors goes up.  This also doesn't cover cases of total destructive events.
 
 3. Shielding - High weight, new resistive technology can help shed the shielding weight to achieve.
 
@@ -28,7 +32,7 @@ from radiation than deep space, so more radiation resistant and reliable technol
 - Testing the effectiveness of these chips could help optimize efficiency of not just cube satellites, but Deep Space manned missions in the future.
 
 ### Can this be done on Earth?
-Difficult to simulate the wide array of different radiation and ion particles in a laboratory environment.  Radiation that can be found in orbit around earth ranges from Galactic Cosmic Rays, Trapped electrons, protons, and various heavy ions.  Testing and performing this research in orbit would allow for proper environment testing, and give data as to the flight readyness of a technology.
+Difficult to simulate the wide array of different radiation and ion particles in a laboratory environment.  Radiation that can be found in orbit around earth ranges from Galactic Cosmic Rays, Trapped electrons, protons, and various heavy ions.  Testing and performing this research in orbit would allow for proper environment testing, and give data as to the flight readiness of a technology.
 
 ### Other groups doing this
 - Ångström Aerospace Corporation, Uppsala, Sweden
