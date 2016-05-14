@@ -1,5 +1,5 @@
 READ=markdown
-INPUT=MemTestFeasibility.md
+INPUT= ./src/MemTestFeasibility.md
 
 all: html
 
