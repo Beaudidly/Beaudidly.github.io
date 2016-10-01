@@ -32,6 +32,7 @@ The Avionics subsystem is responsible for handling the majority of operations on
 Primary Component: CubeSatKit Motherboard + MSP430 PPM
 
 Lack of complete secondary kits that meet the same level of documentation, cost, and heritage.
+
 #### Component justification
 - Already own development kit for the hardware
 - Flight heritage with the board and RTOS
