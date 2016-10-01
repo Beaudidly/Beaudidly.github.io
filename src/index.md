@@ -1,4 +1,4 @@
 # Pages
 - [Payload Proposal](./proposal.html)
 
-- [Concepts of Operatiosn](./conops.html)
+- [Concepts of Operations](./conops.html)
